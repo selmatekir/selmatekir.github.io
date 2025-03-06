@@ -20,16 +20,16 @@ email: selmatekir@iyte.edu.tr # your email address
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: https://www.linkedin.com/in/selma-tekir-b4626015/ # your LinkedIn user name
+linkedin_username: selma-tekir-b4626015/ # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: https://orcid.org/0000-0002-0488-9682 # your ORCID ID
+orcid_id: 0000-0002-0488-9682 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: false # set to true to show the RSS icon
+#rss_icon: false # set to true to show the RSS icon
 scholar_userid: iRawdD8AAAAJ&hl=tr&oi=ao your Google Scholar ID
 #scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
