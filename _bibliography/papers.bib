@@ -1,6 +1,706 @@
 ---
 ---
 
+@article{acar2025,
+author = {Acar, Ali and Tekir, Selma},
+title = {Recognition of Counterfactual Statements in Turkish},
+year = {2025},
+issue_date = {January 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {24},
+number = {1},
+issn = {2375-4699},
+url = {https://doi.org/10.1145/3706105},
+doi = {10.1145/3706105},
+abstract = {Counterfactual statements are examples of causal reasoning as they describe events that did not happen and, optionally, those events’ consequences if they happened. SemEval-2020 introduces the counterfactual detection (CFD) task and shares an English dataset. Since then, a set of datasets has been released in English, German, and Japanese as part of Amazon product reviews. This work releases the first Turkish corpus of counterfactuals (TRCD). The data collection process is driven by a clue phrase list of counterfactuals, mainly in the form of verb inflections in Turkish. We use clue phrase-based filtering to collect sentences from the Turkish National Corpus (TNC). On the other hand, half of the collection is subject to random word filtering to avoid selection bias due to clue phrases. After the human annotation process with an Inter Annotator Agreement of 0.65, we have 5000 sentences, of which 12.8\% contain counterfactual statements. Furthermore, we provide a comprehensive baseline of transformer-based models by testing the effect of clue phrases, cross-lingual performance comparisons using the available CFD datasets, and zero-shot cross-lingual classification experiments using fine-tuning on the different combinations of the existing datasets. The results confirm that TRCD is compatible with the other CFD datasets. Moreover, fine-tuning a Turkish-specific model (BERTurk) performs better than the multilingual alternatives (mBERT and XLM-R). BERTurk is more robust to clue phrase masking. This result emphasizes the importance of a language-specific tokenizer for contextual understanding, especially for low-resource languages. Finally, our qualitative analysis gives insights into errors by different models.},
+journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},
+month = jan,
+articleno = {6},
+numpages = {26},
+keywords = {Turkish, corpus, counterfactual detection, multilingual transformers, BERTurk}
+}
+
+@inproceedings{agrali2024,
+  author    = {Mahmut A\u{g}ral{\i}  and
+               \textbf{Selma Tekir}},
+  title     = {Çok Görevli BERT Modeli Üzerinde İyileştirmeler},
+  booktitle = {32nd Signal Processing and Communications Applications Conference,
+               \textbf{{SIU} 2024}, Tarsus, Turkey, May 15-18, 2024},
+  pages     = {},
+  publisher = {IEEE},
+  year      = {2024},
+  url       = {https://doi.org/10.1109/SIU49456.2020.9302027},
+  doi       = {10.1109/SIU49456.2020.9302027},
+  timestamp = {Thu, 23 Sep 2021 11:47:42 +0200},
+  biburl    = {https://dblp.org/rec/conf/siu/JabrayilzadeAPP20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{ciftci2024,
+  author       = {Okan {\c{C}}ift{\c{c}}i and
+                  Fatih Soygazi and
+                  Selma Tekir},
+  title        = {Enrichment of Turkish question answering systems using knowledge graphs},
+  journal      = {Turkish J. Electr. Eng. Comput. Sci.},
+  volume       = {32},
+  number       = {4},
+  pages        = {516--533},
+  year         = {2024},
+  url          = {https://doi.org/10.55730/1300-0632.4085},
+  doi          = {10.55730/1300-0632.4085},
+  timestamp    = {Sun, 06 Oct 2024 21:26:57 +0200},
+  biburl       = {https://dblp.org/rec/journals/elektrik/CiftciST24.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{tekir-etal-2023-quote,
+    title = "Quote Detection: A New Task and Dataset for {NLP}",
+    author = {\textbf{Selma Tekir}  and
+      Ayb{\"u}ke G{\"u}zel  and
+      Samet Tenekeci and
+      Bekir Haman},
+    booktitle = {Proceedings of the 7th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature, \textbf{LaTeCH-CLfL@EACL 2023}},
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics.",
+    url = "https://aclanthology.org/2023.latechclfl-1.3",
+    pages = "21--27",
+    abstract = "Quotes are universally appealing. Humans recognize good quotes and save them for later reference. However, it may pose a challenge for machines. In this work, we build a new corpus of quotes and propose a new task, quote detection, as a type of span detection. We retrieve the quote set from Goodreads and collect the spans through a custom search on the Gutenberg Book Corpus. We measure unique vocabulary usage by a state-of-the-art language model and perform comparative statistical analysis against the Cornell Movie-Quotes Corpus. Furthermore, we run two types of baselines for quote detection: Conditional random field (CRF) and summarization with pointer-generator networks and Bidirectional and Auto-Regressive Transformers (BART). The results show that the neural sequence-to-sequence models perform substantially better than CRF. From the viewpoint of neural extractive summarization, quote detection seems easier than news summarization. Moreover, model fine-tuning on our corpus and the Cornell Movie-Quotes Corpus introduces incremental performance boosts.",
+}
+
+@article{tenekeci2024,
+title = {Identifying promoter and enhancer sequences by graph convolutional networks},
+journal = {Computational Biology and Chemistry},
+volume = {110},
+pages = {108040},
+year = {2024},
+issn = {1476-9271},
+doi = {https://doi.org/10.1016/j.compbiolchem.2024.108040},
+url = {https://www.sciencedirect.com/science/article/pii/S1476927124000288},
+author = {Samet Tenekeci and \textbf{Selma Tekir}},
+keywords = {Graph convolutional networks, Natural language processing, Sequence analysis, Enhancer, Promoter},
+abstract = {Identification of promoters, enhancers, and their interactions helps understand genetic regulation. This study proposes a graph-based semi-supervised learning model (GCN4EPI) for the enhancer-promoter classification problem. We adopt a graph convolutional network (GCN) architecture to integrate interaction information with sequence features. Nodes of the constructed graph hold word embeddings of DNA sequences while edges hold the Enhancer-Promoter Interaction (EPI) information. By means of semi-supervised learning, much less data (16%) and time are needed in model training. Comparisons on a benchmark dataset of six human cell lines show that the proposed approach outperforms the state-of-the-art methods by a large margin (10% higher F1 score) and has the fastest training time (up to 3 times). Moreover, GCN4EPI’s performance on cross-cell line data is also better than the baselines (3% higher F1 score). Our qualitative analyses with graph explainability models prove that GCN4EPI learns from both text and graph structure. The results suggest that integrating interaction information with sequence features improves predictive performance and compensates for the number of training instances.}
+}
+
+@article{celik2022,
+title = {Asking the Right Questions to Solve Algebraic Word Problems},
+author = {Ege Yi\u{g}it \c{C}elik and Zeynel Orulluo\u{g}lu and R{\i}dvan Merto\u{g}lu and \textbf{Selma Tekir}},
+doi = {10.55730/1300-0632.3962},
+year = {2022},
+date = {2022-11-28},
+journal = {Turkish Journal of Electrical Engineering \& Computer Sciences},
+volume = {30},
+number = {7},
+pages = {2672-2687},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+
+@article{sezerer2021,
+  author    = {Erhan Sezerer and
+               \textbf{Selma Tekir}},
+  title     = {A Survey On Neural Word Embeddings},
+  journal   = {CoRR},
+  volume    = {abs/-2110.01804},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2110.01804},
+  eprinttype = {arXiv},
+  eprint    = {2110.01804},
+  timestamp = {Fri, 08 Oct 2021 15:47:55 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2110-01804.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@article{schlicht2021,
+  author    = {Ipek Baris Schlicht and
+               Erhan Sezerer and
+               \textbf{Selma Tekir} and
+               Oul Han and
+               Zeyd Boukhers},
+  title     = {Leveraging Commonsense Knowledge on Classifying False News and Determining
+               Checkworthiness of Claims},
+  journal   = {CoRR},
+  volume    = {abs/2108.03731},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2108.03731},
+  eprinttype = {arXiv},
+  eprint    = {2108.03731},
+  timestamp = {Wed, 11 Aug 2021 15:24:08 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2108-03731.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+@inproceedings{ogul2021,
+  author    = {Iskender Ulgen Ogul and
+               \textbf{Selma Tekir}},
+  title     = {Performance Evaluation of {BERT} Vectors on Natural Language Inference
+               Models},
+  booktitle = {29th Signal Processing and Communications Applications Conference,
+               \textbf{{SIU} 2021}, Istanbul, Turkey, June 9-11, 2021},
+  pages     = {1--4},
+  publisher = {{IEEE}},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/SIU53274.2021.9478044},
+  doi       = {10.1109/SIU53274.2021.9478044},
+  timestamp = {Thu, 23 Sep 2021 11:47:41 +0200},
+  biburl    = {https://dblp.org/rec/conf/siu/OgulT21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@Article{sezerer2021b,
+AUTHOR = {Erhan Sezerer and \textbf{Selma Tekir}},
+TITLE = {Incorporating Concreteness in Multi-Modal Language Models with Curriculum Learning},
+JOURNAL = {Applied Sciences},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {17},
+ARTICLE-NUMBER = {8241},
+URL = {https://www.mdpi.com/2076-3417/11/17/8241},
+ISSN = {2076-3417},
+ABSTRACT = {Over the last few years, there has been an increase in the studies that consider experiential (visual) information by building multi-modal language models and representations. It is shown by several studies that language acquisition in humans starts with learning concrete concepts through images and then continues with learning abstract ideas through the text. In this work, the curriculum learning method is used to teach the model concrete/abstract concepts through images and their corresponding captions to accomplish multi-modal language modeling/representation. We use the BERT and Resnet-152 models on each modality and combine them using attentive pooling to perform pre-training on the newly constructed dataset, which is collected from the Wikimedia Commons based on concrete/abstract words. To show the performance of the proposed model, downstream tasks and ablation studies are performed. The contribution of this work is two-fold: A new dataset is constructed from Wikimedia Commons based on concrete/abstract words, and a new multi-modal pre-training approach based on curriculum learning is proposed. The results show that the proposed multi-modal pre-training approach contributes to the success of the model.},
+DOI = {10.3390/app11178241}
+}
+
+
+@article{atik2022,
+title = {Gender Bias in Occupation Classification from the New York Times Obituaries},
+author = {Ceren Atik and \textbf{Selma Tekir}},
+journal = {Dokuz Eylül Üniversitesi Mühendislik Fakültesi Fen ve Mühendislik Dergisi},
+volume = {24},
+year = {2022},
+number = {71},
+pages = {425--436},
+doi = {https://doi.org/10.21205/deufmd.2022247109}
+}
+
+
+@article{sezerer2021c,
+title = {Author Reputation Measurement on Question and Answer Sites by the Classification of Author Generated Content},
+author = {Erhan Sezerer and Samet Tenekeci and Ali Acar and Bora Baloglu and \textbf{Selma Tekir}},
+date = {2021-10},
+journal = {International Journal of Software Engineering and Knowledge Engineering},
+VOLUME = {31},
+YEAR = {2021},
+NUMBER = {10},
+pubstate = {accepted},
+tppubtype = {article}
+}
+
+@inbook{tekir2020,
+  author       = {\textbf{Selma Tekir} and Yalın Baştanlar}, 
+  title        = {Deep Learning: Exemplar Studies in Natural Language Processing and Computer Vision},
+  publisher    = {IntechOpen},
+  doi = {10.5772/intechopen.91813},
+  year         = 2020,
+  editor       = {Derya Birant},
+}
+
+@book{tekir2009osint,
+title = {Open Source Intelligence Analysis A Methodological Approach},
+author = {\textbf{Selma Tekir}},
+year = {2009},
+date = {2009-01-01},
+publisher = {VDM Verlag},
+keywords = {},
+pubstate = {published},
+tppubtype = {book}
+}
+
+@article{yasar2020,
+title = {Estimating spatiotemporal focus of documents using entropy with {PMI}},
+author = {Damla Ya\c{s}ar and \textbf{Selma Tekir}},
+doi = {10.3906/elk-1907-10},
+year = {2020},
+date = {2020-03-30},
+journal = {Turkish Journal of Electrical Engineering \& Computer Sciences},
+volume = {28},
+number = {2},
+pages = {1085},
+abstract = {Many text documents are spatiotemporal in nature, ie contents of a document can be mapped to a specific time period or location. For example, a news article about the French Revolution can be mapped to year 1789 as time and France as place. Identifying this time period and location associated with the document can be useful for various downstream applications such as document reasoning or spatiotemporal information retrieval. In this paper, temporal entropy with pointwise mutual information (PMI) is proposed to estimate the temporal focus of a document. PMI is used to measure the association of words with time expressions. Moreover, a word? s temporal entropy is considered as a weight to its association with a time point and a single time point with the highest overall score is chosen as the focus time of a document. The proposed method is generic in the sense that it can also be applied for spatial focus estimation of documents. In the case of spatial entropy with PMI, PMI is used to calculate the association between words and place entities. The effectiveness of our proposed methods for spatiotemporal focus estimation is evaluated on diverse datasets of text documents. The experimental evaluation confirms the superiority of our proposed temporal and spatial focus estimation methods.},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+
+@inproceedings{jabrayilzade2020b,
+  author    = {Elgun Jabrayilzade and
+               Algin Poyraz Arslan and
+               Hasan Para and
+               Ozan Polatbilek and
+               Erhan Sezerer and
+               \textbf{Selma Tekir}},
+  title     = {A {T}urkish Topic Modeling Dataset For Multi-label Classification of
+               Movie Genre},
+  booktitle = {28th Signal Processing and Communications Applications Conference,
+               \textbf{{SIU} 2020}, Gaziantep, Turkey, October 5-7, 2020},
+  pages     = {1--5},
+  publisher = {{IEEE}},
+  year      = {2020},
+  url       = {https://doi.org/10.1109/SIU49456.2020.9302027},
+  doi       = {10.1109/SIU49456.2020.9302027},
+  timestamp = {Thu, 23 Sep 2021 11:47:42 +0200},
+  biburl    = {https://dblp.org/rec/conf/siu/JabrayilzadeAPP20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{jabrayilzade2020,
+  author    = {Elgun Jabrayilzade and
+               \textbf{Selma Tekir}},
+  editor    = {Trevor Cohn and
+               Yulan He and
+               Yang Liu},
+  title     = {{LGPS}olver - {S}olving Logic Grid Puzzles Automatically},
+  booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural
+               Language Processing: Findings, \textbf{{EMNLP} 2020}, Online Event, 16-20 November
+               2020},
+  pages     = {1118--1123},
+  publisher = {Association for Computational Linguistics},
+  year      = {2020},
+  url       = {https://www.aclweb.org/anthology/2020.findings-emnlp.100/},
+  timestamp = {Thu, 12 Nov 2020 17:18:15 +0100},
+  biburl    = {https://dblp.org/rec/conf/emnlp/JabrayilzadeT20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{akdeniz2023,
+  author       = {Ey{\"{u}}p Kaan Akdeniz and
+                  \textbf{Selma Tekir} and
+                  Malik Nizar Asad Al Hinnawi},
+  title        = {An End-to-End System for Reproducibility Assessment of Source Code
+                  Repositories via Their Readmes},
+  journal      = {CoRR},
+  volume       = {abs/2310.09634},
+  year         = {2023},
+  url          = {https://doi.org/10.48550/arXiv.2310.09634},
+  doi          = {10.48550/ARXIV.2310.09634},
+  eprinttype    = {arXiv},
+  eprint       = {2310.09634},
+  timestamp    = {Sun, 12 Nov 2023 02:17:04 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2310-09634.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{can2020,
+  author    = {{\"{O}}zg{\"{u}}r Can and
+               \textbf{Selma Tekir}},
+  title     = {Automatic Story Construction from News Articles in an Online Fashion},
+  journal   = {CoRR},
+  volume    = {abs/2007.10399},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2007.10399},
+  archivePrefix = {arXiv},
+  eprint    = {2007.10399},
+  timestamp = {Tue, 28 Jul 2020 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2007-10399.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@article{keklik2019,
+  author    = {Onur Keklik and
+               Tugkan Tuglular and
+               \textbf{Selma Tekir}},
+  title     = {Rule-Based Automatic Question Generation Using Semantic Role Labeling},
+  journal   = {{IEICE} Trans. Inf. Syst.},
+  volume    = {102-D},
+  number    = {7},
+  pages     = {1362--1373},
+  year      = {2019},
+  url       = {http://search.ieice.org/bin/summary.php?id=e102-d\_7\_1362},
+  timestamp = {Sat, 11 Apr 2020 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/ieicet/KeklikTT19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{ozenboy2019,
+title={Sales History-based Demand Prediction using Generalized Linear Models},
+abstractNode={It's vital for commercial enterprises to accurately predict demand by utilizing the existing sales data. Such predictive analytics is a crucial part of their decision support systems to increase the profitability of the company. In predictive data analytics, the branch of regression modeling is used to predict a numerical response variable like sale amount. In this category, linear models are simple and easy to interpret yet they permit generalization to very powerful and flexible families of models which are called Generalized linear models (GLM). The generalization potential over simple linear regression can be explained twofold: First, GLM relax the assumption of normally distributed error terms. Moreover, the relationship of the set of predictor variables and the response variable could be represented by a set of link functions rather than the sole choice of the identity function. This work models the sales amount prediction problem through the use of GLM. Unique company sales data are explored and the response variable, sale amount is fitted to the Gamma distribution. Then, inverse link function, which is the canonical one in the case of gamma-distributed response variable is used. The experimental results are compared with the other regression models and the classification algorithms. The model selection is performed via the use of MSE and AIC metrics respectively. The results show that GLM is better than the linear regression. As for the classification algorithms, Random Forest and GLM are the top performers. Moreover, categorization on the predictor variables improves model fitting results significantly.},
+author={Başar Özenboy and \textbf{Selma Tekir}},
+year={2019},
+journal={Süleyman Demirel Üniversitesi Fen Bilimleri Enstitüsü Dergisi}}
+
+@inproceedings{sezerer2019a,
+  author    = {Erhan Sezerer and
+               Ozan Polatbilek and
+               \textbf{Selma Tekir}},
+  editor    = {Annemarie Friedrich and
+               Deniz Zeyrek and
+               Jet Hoek},
+  title     = {A {T}urkish Dataset for Gender Identification of Twitter Users},
+  booktitle = {Proceedings of the 13th Linguistic Annotation Workshop, \textbf{LAW@ACL 2019},
+               Florence, Italy, August 1, 2019},
+  pages     = {203--207},
+  publisher = {Association for Computational Linguistics},
+  year      = {2019},
+  url       = {https://doi.org/10.18653/v1/w19-4023},
+  doi       = {10.18653/v1/w19-4023},
+  timestamp = {Tue, 28 Jan 2020 00:00:00 +0100},
+  biburl    = {https://dblp.org/rec/conf/acllaw/SezererPT19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{sezerer2019b,
+  author    = {Erhan Sezerer and
+               Ozan Polatbilek and
+               \textbf{Selma Tekir}},
+  title     = {Gender Prediction from {T}urkish Tweets with Neural Networks},
+  booktitle = {27th Signal Processing and Communications Applications Conference,
+               \textbf{{SIU} 2019}, Sivas, Turkey, April 24-26, 2019},
+  pages     = {1--4},
+  publisher = {{IEEE}},
+  year      = {2019},
+  url       = {https://doi.org/10.1109/SIU.2019.8806315},
+  doi       = {10.1109/SIU.2019.8806315},
+  timestamp = {Wed, 16 Oct 2019 14:14:55 +0200},
+  biburl    = {https://dblp.org/rec/conf/siu/SezererPT19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{sezerer2019c,
+  author    = {Erhan Sezerer and
+               Ozan Polatbilek and
+               \textbf{Selma Tekir}},
+  title     = {Gender Prediction from Tweets: Improving Neural Representations with
+               Hand-Crafted Features},
+  journal   = {CoRR},
+  volume    = {abs/1908.09919},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1908.09919},
+  archivePrefix = {arXiv},
+  eprint    = {1908.09919},
+  timestamp = {Thu, 29 Aug 2019 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1908-09919.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{sezerer2018,
+  author    = {Erhan Sezerer and
+               Ozan Polatbilek and
+               {\"{O}}zge Sevgili and
+               \textbf{Selma Tekir}},
+  editor    = {Linda Cappellato and
+               Nicola Ferro and
+               Jian{-}Yun Nie and
+               Laure Soulier},
+  title     = {Gender Prediction From Tweets With Convolutional Neural Networks:
+               Notebook for {PAN} at {CLEF} 2018},
+  booktitle = {Working Notes of \textbf{{CLEF} 2018} - Conference and Labs of the Evaluation
+               Forum, Avignon, France, September 10-14, 2018},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {2125},
+  publisher = {CEUR-WS.org},
+  year      = {2018},
+  url       = {http://ceur-ws.org/Vol-2125/paper\_116.pdf},
+  timestamp = {Wed, 12 Feb 2020 16:44:31 +0100},
+  biburl    = {https://dblp.org/rec/conf/clef/SezererPST18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{karabayir2018,
+  author    = {Arif Kürşat Karabayır and
+               Ozan Onur Tek and Özgür Fırat Çınar and
+               \textbf{Selma Tekir}},
+  editor    = {Ayça Tarhan and Murat Erten},
+  title     = {Doğruluk problemi için veri kümesi hazırlanması},
+  booktitle = {Proceedings of the 12th Turkish National Software Engineering Symposium,
+               \textbf{{UYMS} 2018}, Istanbul, Turkey, September 10-12, 2018},
+  series    = {{CEUR} Workshop Proceedings},
+  publisher = {CEUR-WS.org},
+  year      = {2018},
+  url       = {http://ceur-ws.org/Vol-2201/UYMS_2018_paper_84.pdf},
+}
+
+
+@inproceedings{sezerer2017,
+  author    = {Erhan Sezerer and
+               \textbf{Selma Tekir}},
+  editor    = {Ladjel Bellatreche and
+               Sharma Chakravarthy},
+  title     = {A Relativistic Opinion Mining Approach to Detect Factual or Opinionated
+               News Sources},
+  booktitle = {Big Data Analytics and Knowledge Discovery - 19th International Conference,
+               \textbf{DaWaK 2017}, Lyon, France, August 28-31, 2017, Proceedings},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {10440},
+  pages     = {303--312},
+  publisher = {Springer},
+  year      = {2017},
+  url       = {https://doi.org/10.1007/978-3-319-64283-3\_22},
+  doi       = {10.1007/978-3-319-64283-3\_22},
+  timestamp = {Tue, 14 May 2019 10:00:41 +0200},
+  biburl    = {https://dblp.org/rec/conf/dawak/SezererT17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{toprak2017,
+  author    = {Mustafa Toprak and
+               {\"{O}}zer {\"{O}}zkahraman and
+               \textbf{Selma Tekir}},
+  editor    = {Octavian Popescu and
+               Carlo Strapparava},
+  title     = {A News Chain Evaluation Methodology along with a Lattice-based Approach
+               for News Chain Construction},
+  booktitle = {Proceedings of the 2017 Workshop: Natural Language Processing meets
+               Journalism, \textbf{NLPmJ@EMNLP}, Copenhagen, Denmark, September 7, 2017},
+  pages     = {95--99},
+  publisher = {Association for Computational Linguistics},
+  year      = {2017},
+  url       = {https://doi.org/10.18653/v1/w17-4217},
+  doi       = {10.18653/v1/w17-4217},
+  timestamp = {Tue, 28 Jan 2020 00:00:00 +0100},
+  biburl    = {https://dblp.org/rec/conf/emnlp/ToprakOT17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{sevgili2017,
+  author    = {{\"{O}}zge Sevgili and
+               Nima Ghotbi and
+               \textbf{Selma Tekir}},
+  editor    = {Steven Bethard and
+               Marine Carpuat and
+               Marianna Apidianaki and
+               Saif M. Mohammad and
+               Daniel M. Cer and
+               David Jurgens},
+  title     = {N-Hance at SemEval-2017 Task 7: {A} Computational Approach using Word
+               Association for Puns},
+  booktitle = {Proceedings of the 11th International Workshop on Semantic Evaluation,
+               \textbf{SemEval@ACL 2017}, Vancouver, Canada, August 3-4, 2017},
+  pages     = {436--439},
+  publisher = {Association for Computational Linguistics},
+  year      = {2017},
+  url       = {https://doi.org/10.18653/v1/S17-2074},
+  doi       = {10.18653/v1/S17-2074},
+  timestamp = {Mon, 16 Sep 2019 17:08:53 +0200},
+  biburl    = {https://dblp.org/rec/conf/semeval/X17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{yafay2016,
+  author    = {Erman Yafay and
+               \textbf{Selma Tekir}},
+  editor    = {Semih Bilgen and
+               Ahmet Coskun{\c{c}}ay and
+               Altan Ko{\c{c}}yigit},
+  title     = {Sosyal Cizgeler Icin Arama Motoru Gelistirilmesi},
+  booktitle = {Proceedings of the 10th Turkish National Software Engineering Symposium,
+               \textbf{{UYMS} 2016}, Canakkale, Turkey, October 24-26, 2016},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {1721},
+  pages     = {599--610},
+  publisher = {CEUR-WS.org},
+  year      = {2016},
+  url       = {http://ceur-ws.org/Vol-1721/UYMS16\_paper\_116.pdf},
+  timestamp = {Wed, 12 Feb 2020 16:44:49 +0100},
+  biburl    = {https://dblp.org/rec/conf/uyms/YafayT16.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{turkmen2015,
+  author    = {Sercan T{\"{u}}rkmen and
+               Hilmi Yalin Mungan and
+               \textbf{Selma Tekir}},
+  editor    = {Tugkan Tuglular and
+               Murat Komesli},
+  title     = {Bir Platform Oyununa Kullan{\i}c{\i} Performans{\i} Temelinde Yapay
+               Zeka Uyarlamas{\i}},
+  booktitle = {Proceedings of the 9th Turkish National Software Engineering Symposium,
+               \textbf{{UYMS} 2015}, Yasar University, Izmir, Turkey, September, 9-11, 2015},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {1483},
+  publisher = {CEUR-WS.org},
+  year      = {2015},
+  url       = {http://ceur-ws.org/Vol-1483/8\_Deneyim.pdf},
+  timestamp = {Wed, 12 Feb 2020 16:44:49 +0100},
+  biburl    = {https://dblp.org/rec/conf/uyms/TurkmenMT15.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@book{tuglular2013izmir,
+title = {Izmir Bilgi Toplumu Temelli Kalkinma Stratejisi},
+author = {Tuğkan Tuglular and Koray Velibeyoglu and \textbf{Selma Tekir}},
+year = {2013},
+date = {2013-01-01},
+publisher = {Izmir Kalkinma Ajansi (IZKA)},
+keywords = {},
+isbn = {978-605-5826-11-6},
+pubstate = {published},
+tppubtype = {book}
+}
+
+@article{tekir2012,
+  author    = {\textbf{Selma Tekir}},
+  title     = {Reading {CS} classics},
+  journal   = {Commun. {ACM}},
+  volume    = {55},
+  number    = {4},
+  pages     = {32--34},
+  year      = {2012},
+  url       = {https://doi.org/10.1145/2133806.2133818},
+  doi       = {10.1145/2133806.2133818},
+  timestamp = {Tue, 06 Nov 2018 00:00:00 +0100},
+  biburl    = {https://dblp.org/rec/journals/cacm/Tekir12.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{tekir2011,
+  author    = {\textbf{Selma Tekir} and
+               Florian Mansmann and
+               Daniel A. Keim},
+  title     = {Geodesic distances for web document clustering},
+  booktitle = {Proceedings of the {IEEE} Symposium on Computational Intelligence
+               and Data Mining, \textbf{CIDM 2011}, part of the {IEEE} Symposium Series
+               on Computational Intelligence 2011, April 11-15, 2011, Paris, France},
+  pages     = {15--21},
+  publisher = {{IEEE}},
+  year      = {2011},
+  url       = {https://doi.org/10.1109/CIDM.2011.5949449},
+  doi       = {10.1109/CIDM.2011.5949449},
+  timestamp = {Thu, 28 Nov 2019 00:00:00 +0100},
+  biburl    = {https://dblp.org/rec/conf/cidm/TekirMK11.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{tekir2012geodesic,
+title = {Geodesic Distances for Clustering Linked Text Data},
+author = {\textbf{Selma Tekir} and Florian Mansmann and Daniel Keim},
+year = {2012},
+date = {2012-01-01},
+journal = {Journal of Artificial Intelligence and Soft Computing Research},
+volume = {2},
+number = {4},
+keywords = {},
+pubstate = {published},
+tppubtype = {article}
+}
+
+@inproceedings{tuglular2013b,
+title = {Mapping Information and Communication Sector in Izmir: Exploring Clustering Potential},
+author = {T Tuglular and S Tekir and K Velibeyoglu},
+year = {2013},
+date = {2013-01-01},
+booktitle = {The 6th Knowledge Cities World Summit KCWS13},
+pages = {552--562},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{tuglular2013c,
+title = {Mapping Information and Communication Sector in Izmir: Exploring Clustering Potential},
+author = {T Tuglular and S Tekir and K Velibeyoglu},
+year = {2013},
+date = {2013-01-01},
+booktitle = {The 6th Knowledge Cities World Summit KCWS13},
+pages = {552--562},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{tekir2012warfare,
+title = {Overt Information Operations During Peacetime},
+author = {\textbf{Selma Tekir}},
+year = {2012},
+date = {2012-01-01},
+booktitle = {\textbf{ECIW 2012} 11th European Conference on Information Warfare and Security},
+pages = {272--276},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{aslanoglu2012,
+title = {Recent Cyberwar Spectrum and its Analysis},
+author = {Rabia Aslanoglu and \textbf{Selma Tekir}},
+year = {2012},
+date = {2012-01-01},
+booktitle = {\textbf{ECIW 2012} 11th European Conference on Information Warfare and Security},
+pages = {45--52},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{koltuksuz2006,
+title = {Intelligence Analysis Modeling},
+author = {Ahmet Koltuksuz and \textbf{Selma Tekir}},
+url = {http://dx.doi.org/10.1109/ICHIT.2006.157},
+doi = {10.1109/ICHIT.2006.157},
+isbn = {0-7695-2674-8},
+year = {2006},
+date = {2006-01-01},
+booktitle = {Proceedings of the 2006 International Conference on Hybrid Information Technology - Volume 01},
+pages = {146--151},
+publisher = {IEEE Computer Society},
+address = {Washington, DC, USA},
+series = {\textbf{ICHIT '06}},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{tekir2006,
+title = {Information Organization in the Business World},
+author = {\textbf{Selma Tekir} and Saban Eren},
+year = {2006},
+date = {2006-01-01},
+booktitle = {Fifteenth World Business Congress- Technology, Structure, Environment, and Strategy Interfaces in a Changing Global Business Arena},
+volume = {XV},
+pages = {260--263},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{kurtel2006,
+title = {Lojistik Merkezi Guvenlik Gereksinimleri, XML ve Sayisal Imza},
+author = {Kaan Kurtel and \textbf{Selma Tekir} and Serap Atay},
+year = {2006},
+date = {2006-01-01},
+booktitle = {Ulusal Elektronik Imza Sempozyumu},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{tekir2005,
+title = {Open Source Exploitation in Producing Intelligence},
+author = {\textbf{Selma Tekir}},
+year = {2005},
+date = {2005-01-01},
+booktitle = {\textbf{ISIT 2005} 1st International Symposium on Information Technology},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{tekir2005acikistihbarat,
+title = {Bilgi Sistemleri Bilim ve Teknolojisine Dayali Acik Kaynak Istihbarati ve Bir Uygulama Modeli},
+author = {\textbf{Selma Tekir} and Ahmet Koltuksuz},
+year = {2005},
+date = {2005-01-01},
+booktitle = {2. Polis Bilisim Sempozyumu},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
+@inproceedings{koltuksuz2005,
+title = {Bilgi Sistemleri Guvenligi Dersi},
+author = {Ahmet Koltuksuz and Serap Atay and Dilek Tapucu and \textbf{Selma Tekir} and Orcin Demiray and Sukran Asarcikli and Huseyin Hisil},
+year = {2005},
+date = {2005-01-01},
+booktitle = {Akademik Bilisim 2005},
+keywords = {},
+pubstate = {published},
+tppubtype = {inproceedings}
+}
+
 @string{aps = {American Physical Society,}}
 
 @book{einstein1920relativity,
