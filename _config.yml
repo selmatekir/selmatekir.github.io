@@ -636,3 +636,10 @@ jsonresume:
   - languages
   - interests
   - references
+
+excludes:
+  - _pages/repositories.md
+  - _pages/blog.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
