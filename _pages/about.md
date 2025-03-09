@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Understanding human language has been a sub-challenge in the way of intelligent machines. However, natural language processing has been transforming the world so quickly that language has been the leading force behind AI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have worked on different types of textual data, including social media, patents, scientific documents, news, DNA, and protein sequences, and tackled different types of language problems, e.g., multi-modal language modeling, news story construction, pun detection, logic grid puzzle/word algebra problem solving, local citation recommendation, and viral escape modeling.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I'm working on machine learning for NLP and NLP applications and combining NLP with symbolic reasoning. To reason about language, seeking an automatic mapping between an NLP-based semantic representation and a logic representation is an important future direction.
+
+I'm also excited about the self-reflection ability of language agents and their role in scientific discovery.
