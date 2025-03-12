@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Understanding human language has been a sub-challenge in the way of intelligent machines. However, natural language processing has been transforming the world so quickly that language has been the leading force behind AI.
+understanding human language has been a sub-challenge in the way of intelligent machines. However, natural language processing has been transforming the world so quickly that language has been the leading force behind AI.
 
 I have worked on different types of textual data, including social media, patents, scientific documents, news, DNA, and protein sequences, and tackled different types of language problems, e.g., multi-modal language modeling, news story construction, pun detection, logic grid puzzle/word algebra problem solving, local citation recommendation, and viral escape modeling.
 
