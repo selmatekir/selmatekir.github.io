@@ -637,8 +637,3 @@ jsonresume:
   - interests
   - references
 
-exclude:
-  - _pages/repositories.md
-  - _pages/blog.md
-  - _posts/
-  - assets/jupyter/blog.ipynb
