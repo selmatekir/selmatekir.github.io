@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Viral Evrim ve Kaçış Tespiti için Dil Modellemesi
+title: Predicting Viral Escape: A Contrastive Learning Approach with Lightweight Protein Language Models
 description: with background image
 img: assets/img/workflow_escape_2.jpg
 importance: 1
