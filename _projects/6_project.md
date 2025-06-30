@@ -4,7 +4,6 @@ title: project 6
 description: a project with no image
 img:
 importance: 4
-category: backup
 ---
 
 Every project has a beautiful feature showcase page.
