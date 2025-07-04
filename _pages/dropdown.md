@@ -9,4 +9,5 @@ children:
     permalink: /books/
   - title: divider
   - title: blog
+    permalink: /blog/
 ---
