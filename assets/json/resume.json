@@ -6,21 +6,14 @@
     "email": "selmatekir@iyte.edu.tr",
     "phone": "+90(533)3657327",
     "url": "https://selmatekir.github.io",
-    "summary": ,
+    "summary": "",
     "location": {
       "address": "Gulbahce Campus",
       "postalCode": "35430",
       "city": "Izmir",
       "countryCode": "TR",
       "region": "Ege"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    }
   },
   "work": [
     {
@@ -29,8 +22,8 @@
       "url": "https://ceng.iyte.edu.tr/people/selma-tekir/",
       "startDate": "2024-09",
       "endDate": "Present",
-      "summary": ,
-      "highlights":
+      "summary": "",
+      "highlights": ""
     },
     {
       "name": "Institute for Language, Cognition and Computation, University of Edinburgh",
@@ -38,8 +31,8 @@
       "url": ,
       "startDate": "2024-04",
       "endDate": "2025-04",
-      "summary": ,
-      "highlights":
+      "summary": "",
+      "highlights": ""
     },
     {
       "name": "Department of Computer Engineering, Izmir Institute of Technology",
@@ -47,8 +40,8 @@
       "url": ,
       "startDate": "2013-04",
       "endDate": "2024-09",
-      "summary": ,
-      "highlights":
+      "summary": "",
+      "highlights": ""
     },
     {
       "name": "Department of Computer Engineering, Izmir Institute of Technology",
@@ -56,8 +49,8 @@
       "url": ,
       "startDate": "2010",
       "endDate": "2013",
-      "summary": ,
-      "highlights":
+      "summary": "",
+      "highlights": ""
     },
     {
       "name": "Department of Computer Engineering, Izmir Institute of Technology",
@@ -65,8 +58,8 @@
       "url": ,
       "startDate": "2010",
       "endDate": "2013",
-      "summary": ,
-      "highlights":
+      "summary": "",
+      "highlights": ""
     },
      {
       "name": "Faculty of Computer Science Chair for Databases, Data Analysis and Visualization, University of Konstanz",
@@ -74,8 +67,8 @@
       "url": ,
       "startDate": "2009-03",
       "endDate": "2009-12",
-      "summary": ,
-      "highlights":
+      "summary": "",
+      "highlights": ""
     },
     {
       "name": "Department of Computer Engineering, Izmir Institute of Technology",
@@ -83,8 +76,8 @@
       "url": ,
       "startDate": "2009",
       "endDate": "2001",
-      "summary": ,
-      "highlights":
+      "summary": "",
+      "highlights": ""
     }
   ]
 }
