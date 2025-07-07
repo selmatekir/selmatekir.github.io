@@ -4,6 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - eyclk/CitationRecommendation
+  - dopc/turkish-counterfactual-recognition
+  - smtnkc/gcn4epi
   - Darg-Iztech/Gender_Classification
   - Darg-Iztech/GreyLiterature
   - Darg-Iztech/Turkce-cinsiyet-tahminlemesi
