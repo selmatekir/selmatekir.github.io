@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ceng.iyte.edu.tr'>İzmir Institute of Technology, Dept. of Computer Engineering</a>
+subtitle: <a href='https://ceng.iyte.edu.tr'>Izmir Institute of Technology, Dept. of Computer Engineering</a>
 
 profile:
   align: right
