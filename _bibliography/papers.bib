@@ -1,5 +1,26 @@
 ---
 ---
+@inproceedings{celik-tekir-2025-citebart,
+    title = "{C}ite{BART}: Learning to Generate Citations for Local Citation Recommendation",
+    author = "{\c{C}}elik, Ege Yi{\u{g}}it  and
+      Tekir, Selma",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.89/",
+    doi = "10.18653/v1/2025.emnlp-main.89",
+    pages = "1703--1719",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Local citation recommendation (LCR) suggests a set of papers for a citation placeholder within a given context. This paper introduces CiteBART, citation-specific pre-training within an encoder-decoder architecture, where author-date citation tokens are masked to learn to reconstruct them to fulfill LCR. The global version (CiteBART-Global) extends the local context with the citing paper{'}s title and abstract to enrich the learning signal. CiteBART-Global achieves state-of-the-art performance on LCR benchmarks except for the FullTextPeerRead dataset, which is quite small to see the advantage of generative pre-training. The effect is significant in the larger benchmarks, e.g., Refseer and ArXiv., with the Refseer pre-trained model emerging as the best-performing model. We perform comprehensive experiments, including an ablation study, a qualitative analysis, and a taxonomy of hallucinations with detailed statistics. Our analyses confirm that CiteBART-Global has a cross-dataset generalization capability; the macro hallucination rate (MaHR) at the top-3 predictions is 4{\%}, and when the ground-truth is in the top-k prediction list, the hallucination tendency in the other predictions drops significantly. We publicly share our code, base datasets, global datasets, and pre-trained models to support reproducibility.",
+selected={true}
+}
+
 @article{citebart2024,
 abbr={ArXiv},
   author       = {Ege Yigit {\c{C}}elik and
@@ -35,8 +56,7 @@ journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},
 month = jan,
 articleno = {6},
 numpages = {26},
-keywords = {Turkish, corpus, counterfactual detection, multilingual transformers, BERTurk},
-selected={true}
+keywords = {Turkish, corpus, counterfactual detection, multilingual transformers, BERTurk}
 }
 
 @inproceedings{agrali2024,
