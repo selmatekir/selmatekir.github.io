@@ -27,6 +27,9 @@ module ExternalPosts
       return if xml.nil?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
+    rescue => e
+      Jekyll.logger.warn "ExternalPosts:", "Feed parsing failed for #{src['rss_url']}: #{e.message}"
+      return
     end
 
     def process_entries(site, src, entries)
