@@ -23,20 +23,43 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
-      feed = Feedjira.parse(xml)
+    begin
+      response = HTTParty.get(src['rss_url'])
+      xml = response.body
+
+      if xml.nil? || xml.strip.empty?
+        Jekyll.logger.warn "ExternalPosts:", "Empty RSS feed for #{src['rss_url']}. Skipping."
+        return
+      end
+
+      begin
+        feed = Feedjira.parse(xml)
+      rescue => e
+        Jekyll.logger.warn "ExternalPosts:", "Invalid RSS XML from #{src['rss_url']}. Skipping."
+        Jekyll.logger.warn "ExternalPosts:", e.message
+        return
+      end
+
       process_entries(site, src, feed.entries)
+
+      rescue => e
+        Jekyll.logger.warn "ExternalPosts:", "Failed to fetch RSS from #{src['rss_url']}."
+        Jekyll.logger.warn "ExternalPosts:", e.message
+        return
+      end
     end
 
     def process_entries(site, src, entries)
+      return if entries.nil? || entries.empty?
+
       entries.each do |e|
+        next if e.url.nil?
         puts "...fetching #{e.url}"
         create_document(site, src['name'], e.url, {
-          title: e.title,
-          content: e.content,
-          summary: e.summary,
-          published: e.published
+          title: e.title || "Untitled",
+          content: e.content || "",
+          summary: e.summary || "",
+          published: e.published || Time.now
         })
       end
     end
